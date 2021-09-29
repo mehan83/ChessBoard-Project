@@ -95,6 +95,26 @@ p {
     color: coral;
 }
 
+button{
+    margin-left: 45%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);  
+    color: skyblue;
+    cursor: pointer;
+}
+
+
+#button div{
+ border: none;
+ background-color: rgba(0, 0, 0, 0);
+}
+
+
+button:active~main, button:active~ main .chessboard i {
+    transform: rotate(180deg);
+}
+
+
 
 
 
