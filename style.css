@@ -1,0 +1,104 @@
+@import url(https://use.fontawesome.com/releases/v5.15.4/css/all.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+h1:hover {
+    color: cyan;
+}
+
+ body {
+     background: linear-gradient(50deg, purple,rgb(180, 180, 238));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+   
+ }
+
+ /* Chessboard */
+
+
+main {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.chessboard {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+  /* Boxes  */
+
+div {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid lavender;
+}
+
+.pink {
+   background: linear-gradient(50deg , rgb(211, 163, 223), rgb(233, 169, 180));
+}
+
+.aqua {
+    background: linear-gradient(50deg , rgb(211, 163, 223), rgb(92, 224, 224));
+}
+
+
+        /* Content in Boxes  */
+
+.fas {
+    font-size: 50px;
+}
+
+.icon-color1 i {
+    color: white;
+}
+
+.icon-color2 {
+    color: rgb(129, 6, 129);
+}
+
+p {
+ visibility: hidden;
+ font-weight: bold;
+ font-size: 2rem;
+ 
+}
+
+.letter:hover p{
+    visibility: visible;
+    opacity: 1;
+    transition: 50s;
+   
+}
+
+.pink p {
+    color: rgb(65, 212, 200);
+}
+
+.aqua p {
+    color: coral;
+}
+
+
+
+
+
+
+
+
